@@ -17,3 +17,6 @@ sample<-tuner$sample.fraction
 #Run model
 rn<-ranger(Status~.,data = plioc,importance = "impurity",num.trees = 1000,mtry =mtry,min.node.size = 1,sample.fraction = sample)
 rn
+
+
+#wea mala retirate
